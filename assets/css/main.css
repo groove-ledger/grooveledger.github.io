@@ -2519,7 +2519,10 @@ input, select, textarea {
 
 			#promo {
 				padding: 1.75em 2.5em 1.75em 2.5em;
-				display: inline-block;
+				/*display: inline-block;*/
+				display: flex;
+				justify-content: center;
+				align-items: center;
 			}
 
 				#promo .button {
@@ -2527,7 +2530,10 @@ input, select, textarea {
 				}
 
 				#promo h2 {
-					display: block;
+					/*display: block;*/
+					display: flex;
+					justify-content: center;
+					align-items: center;
 					margin: 0 0 1em 0;
 					font-size: 1.5em;
 				}
